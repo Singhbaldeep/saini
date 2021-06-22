@@ -6,7 +6,7 @@ public class secondtestng
 {
 		String expectedvalue = "india";
 		String actualvalue = "punjab";
-			@Test(priority = 2)
+			@Test(priority = 1)
 	public void testng() 
 	{		
 		System.out.println(expectedvalue);
@@ -16,7 +16,7 @@ public class secondtestng
 	}
 			int a = 10;
 			int b = 10;
-			@Test(priority = 1)
+			@Test(priority = 2)
 			public void testng1() 
 			{		
 				System.out.println(a);
